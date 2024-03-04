@@ -53,5 +53,5 @@ def L3(x):
 x1=np.arange(min(x3),max(x3)+0.1, 0.1)
 y1=np.array([L3(elem) for elem in x1])
 plt.plot(x1, y1)
-plt.plot(x3[:len(x3)], y3[:len(x3)], 'ro')
+plt.plot(x3[:len(x3)], y3[:len(x3)], 'yo')
 
