@@ -51,4 +51,4 @@ def L4(x):
 x1=np.arange(min(x4),max(x4)+0.1, 0.1)
 y1=L4(x1)
 plt.plot(x1, y1)
-plt.plot(x4[:len(x4)], y4[:len(x4)], 'ro')
+plt.plot(x4[:len(x4)], y4[:len(x4)], 'gs')
