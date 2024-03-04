@@ -44,4 +44,4 @@ def f(x):
 x1=np.linspace(min(x5),max(x5), 9999)
 y1=f(x1)
 plt.plot(x1, y1)
-plt.plot(x5[:len(x5)], y5[:len(x5)], 'ro')
+plt.plot(x5[:len(x5)], y5[:len(x5)], 'r')
